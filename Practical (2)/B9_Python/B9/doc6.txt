@@ -1,0 +1,1 @@
+Depending on the sport, every sport has different number of players in each team.

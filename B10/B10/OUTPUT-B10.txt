@@ -1,0 +1,28 @@
+[BE@localhost 4113]$ python B10.py
+FREQUENT ITEMSET L1 AFTER SCANNING FOR MIN SUP COUNT OF ITEMS
+set([frozenset(['Onion']), frozenset(['Chocolate']), frozenset(['Keychain']), frozenset(['Eggs']), frozenset(['Mango'])])
+
+-------------------------------------------------------------------
+
+FREQUENT ITEMSET L2 AFTER SCANNING FOR MIN SUP COUNT OF ITEMS
+set([frozenset(['Mango', 'Keychain']), frozenset(['Eggs', 'Onion']), frozenset(['Onion', 'Chocolate']), frozenset(['Mango', 'Chocolate']), frozenset(['Keychain', 'Chocolate']), frozenset(['Eggs', 'Chocolate']), frozenset(['Keychain', 'Onion']), frozenset(['Mango', 'Onion']), frozenset(['Eggs', 'Keychain']), frozenset(['Eggs', 'Mango'])])
+
+-------------------------------------------------------------------
+
+FREQUENT ITEMSET L3 AFTER SCANNING FOR MIN SUP COUNT OF ITEMS
+set([frozenset(['Eggs', 'Keychain', 'Onion']), frozenset(['Eggs', 'Keychain', 'Chocolate']), frozenset(['Mango', 'Keychain', 'Chocolate']), frozenset(['Mango', 'Keychain', 'Onion']), frozenset(['Eggs', 'Mango', 'Keychain']), frozenset(['Keychain', 'Onion', 'Chocolate'])])
+
+-------------------------------------------------------------------
+
+FREQUENT ITEMSET L4 AFTER SCANNING FOR MIN SUP COUNT OF ITEMS
+set([])
+
+-------------------------------------------------------------------
+
+The frequent itemset extracted with Apriori Algorithm with min support count as 3 (relative support as 0.6) is:
+
+item: ('Eggs', 'Keychain', 'Onion') 
+
+-------------------------------------------------------------------
+
+[BE@localhost 4113]$ 

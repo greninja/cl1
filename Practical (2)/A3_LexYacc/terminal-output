@@ -1,0 +1,21 @@
+/*OUTPUT
+
+[BE@localhost A3]$ lex a3.l
+[BE@localhost A3]$ gcc lex.yy.c
+[BE@localhost A3]$ ./a.out
+
+Enter input file name:     in
+
+Enter output file name:     output
+Line No     LEXEME                       Token
+1   3                 NUMBER
+2   +                 OPERATOR
+3   8                 NUMBER
+4   *                 OPERATOR
+5   4                 NUMBER
+6   =                 ASSIGNMENT
+7   8                 NUMBER
+
+[BE@localhost A3]$ 
+
+*/
